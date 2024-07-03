@@ -2192,6 +2192,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ocean
       objectReference: {fileID: 0}
+    - target: {fileID: 2632249702998363777, guid: 43f64dac8e180954fa15aa92432b3084, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5397068224567751779, guid: 43f64dac8e180954fa15aa92432b3084, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
