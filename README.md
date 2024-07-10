@@ -5,5 +5,6 @@ The page the origin game is [Monopoly BIT SOFT](https://github.com/chernandezba/
 
 Assets purchase no include:
 
-. PolygonCity
-. Board_games
+- PolygonCity
+- POLYGONCityCharacters
+- Board_games
