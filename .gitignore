@@ -1,7 +1,11 @@
 # Custom
 
 /Assets/PolygonCity
+/Assets/PolygonCity.meta
 /Assets/Board_games
+/Assets/Board_games.meta
+/Assets/POLYGONCityCharacters
+/Assets/POLYGONCityCharacters.meta
 
 # This .gitignore file should be placed at the root of your Unity project directory
 #
