@@ -6,6 +6,10 @@ using UnityEditor.AnimatedValues;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+#if CINEMACHINE
+using Unity.Cinemachine;
+#endif
+
 // Staggart Creations http://staggart.xyz
 // Copyright protected under Unity asset store EULA
 
@@ -464,7 +468,7 @@ public sealed class ScreenshotUtility : EditorWindow
         float originalOthoSize = sourceCamera.orthographicSize;
 
 #if CINEMACHINE
-        Cinemachine.CinemachineBrain cBrain = sourceCamera.GetComponent<Cinemachine.CinemachineBrain>();
+        CinemachineBrain cBrain = sourceCamera.GetComponent<CinemachineBrain>();
         bool cBrainEnable = false;
         if (cBrain) cBrainEnable = cBrain.enabled;
 #endif

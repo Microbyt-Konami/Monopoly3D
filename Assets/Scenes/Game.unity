@@ -803,10 +803,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BoardMonopoly
       objectReference: {fileID: 0}
-    - target: {fileID: 5072722906909372107, guid: 389247bb5929ad64583811b5ce16da3f, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -922,7 +918,7 @@ Camera:
     height: 1
   near clip plane: 0.2
   far clip plane: 1000
-  field of view: 60
+  field of view: 40.6
   orthographic: 0
   orthographic size: 10
   m_Depth: 0
@@ -949,7 +945,7 @@ Transform:
   m_GameObject: {fileID: 1127658125}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: 0, z: 0, w: 0.8660254}
-  m_LocalPosition: {x: 0, y: 82, z: -67}
+  m_LocalPosition: {x: 0, y: 107, z: -75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
