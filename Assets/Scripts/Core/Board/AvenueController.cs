@@ -3,13 +3,13 @@ using UnityEngine;
 public class AvenueController : MonoBehaviour
 {
     [Header("Options")]
-    [SerializeField] private Color blockColor;
-    [Header("reference")]
     [SerializeField] private Material blockMaterial;
+    [Header("reference")]
+    [SerializeField] private MeshRenderer blockRenderer;
 
     private void Awake()
     {
-        blockMaterial.color = blockColor;
+        blockRenderer.sharedMaterial = blockMaterial;
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created

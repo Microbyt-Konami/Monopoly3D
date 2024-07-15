@@ -1449,8 +1449,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b214bc0239178e4481c866455f84505, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blockColor: {r: 0.34509805, g: 0.03529412, b: 0.21568628, a: 1}
-  blockMaterial: {fileID: 2100000, guid: 4930c6ffa5b9b9f4098249a43abf8506, type: 2}
+  blockMaterial: {fileID: 2100000, guid: 956134030c872204ba50ef957bc4974f, type: 2}
+  blockRenderer: {fileID: 8764327154595559154}
 --- !u!1 &7089018186638577284
 GameObject:
   m_ObjectHideFlags: 0
@@ -9343,6 +9343,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8767d9ea8dddf69429fb6c89e304be40, type: 3}
+--- !u!23 &8764327154595559154 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 23183868838966038, guid: 8767d9ea8dddf69429fb6c89e304be40, type: 3}
+  m_PrefabInstance: {fileID: 8787499821332170212}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8790383494591792540 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4169006655848568, guid: 8767d9ea8dddf69429fb6c89e304be40, type: 3}
