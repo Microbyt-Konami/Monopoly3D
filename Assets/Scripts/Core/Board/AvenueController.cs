@@ -1,4 +1,5 @@
 using UnityEngine;
+using TMPro;
 
 public class AvenueController : MonoBehaviour
 {
@@ -6,6 +7,7 @@ public class AvenueController : MonoBehaviour
     [SerializeField] private Material blockMaterial;
     [Header("reference")]
     [SerializeField] private MeshRenderer blockRenderer;
+    [SerializeField] private TextMeshPro textMoney;
 
     private void Awake()
     {
