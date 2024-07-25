@@ -6,6 +6,7 @@ public class AvenueController : MonoBehaviour
     [Header("Options")]
     [SerializeField] private Material blockMaterial;
     [Header("reference")]
+    [SerializeField] private GameObject box;
     [SerializeField] private MeshRenderer blockRenderer;
     [SerializeField] private TextMeshPro textMoney;
 
