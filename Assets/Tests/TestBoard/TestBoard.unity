@@ -8063,6 +8063,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23183868838966038, guid: 8767d9ea8dddf69429fb6c89e304be40, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 956134030c872204ba50ef957bc4974f, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8179,8 +8183,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 2100000, guid: 956134030c872204ba50ef957bc4974f, type: 2}
+  box: {fileID: 0}
   blockRenderer: {fileID: 730811491}
-  textMoney: {fileID: 0}
+  textTitle: {fileID: 0}
+  moneyController: {fileID: 0}
+  avenue: {fileID: 0}
 --- !u!1001 &1013791585
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9438,8 +9445,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 2100000, guid: 956134030c872204ba50ef957bc4974f, type: 2}
+  box: {fileID: 0}
   blockRenderer: {fileID: 1523272596}
-  textMoney: {fileID: 0}
+  textTitle: {fileID: 0}
+  moneyController: {fileID: 0}
+  avenue: {fileID: 0}
 --- !u!1 &1188152970
 GameObject:
   m_ObjectHideFlags: 0
@@ -9488,8 +9498,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 2100000, guid: 956134030c872204ba50ef957bc4974f, type: 2}
+  box: {fileID: 0}
   blockRenderer: {fileID: 699457881}
-  textMoney: {fileID: 0}
+  textTitle: {fileID: 0}
+  moneyController: {fileID: 0}
+  avenue: {fileID: 0}
 --- !u!1001 &1210039491
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13424,8 +13437,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 2100000, guid: 956134030c872204ba50ef957bc4974f, type: 2}
+  box: {fileID: 0}
   blockRenderer: {fileID: 1054010051}
-  textMoney: {fileID: 0}
+  textTitle: {fileID: 0}
+  moneyController: {fileID: 0}
+  avenue: {fileID: 0}
 --- !u!1001 &1827100742
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14702,8 +14718,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 2100000, guid: 956134030c872204ba50ef957bc4974f, type: 2}
+  box: {fileID: 847008260}
   blockRenderer: {fileID: 997848172}
-  textMoney: {fileID: 47201162}
+  textTitle: {fileID: 47201162}
+  moneyController: {fileID: 2229815511988093364}
+  avenue: {fileID: 11400000, guid: 61ec8648a3491ef45a28afef0d26b708, type: 2}
 --- !u!1001 &2059313996
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17697,6 +17716,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d2593474fe874147b1b8836314c9d9d, type: 3}
+--- !u!114 &2229815511988093364 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4593093045210840815, guid: 5d2593474fe874147b1b8836314c9d9d, type: 3}
+  m_PrefabInstance: {fileID: 2229815511988093363}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b17e19b596822794fb7d5f4d0ba9de5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2232524619390288777
 PrefabInstance:
   m_ObjectHideFlags: 0

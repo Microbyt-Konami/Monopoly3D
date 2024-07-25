@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using System;
 
 public class AvenueController : MonoBehaviour
 {
@@ -8,7 +9,20 @@ public class AvenueController : MonoBehaviour
     [Header("reference")]
     [SerializeField] private GameObject box;
     [SerializeField] private MeshRenderer blockRenderer;
-    [SerializeField] private TextMeshPro textMoney;
+    [SerializeField] private TextMeshPro textTitle;
+    [SerializeField] private MoneyController moneyController;
+    [Header("Editor")]
+    [SerializeField] private Avenue avenue;
+
+    public void SetAvenue(Avenue avenue)
+    {
+        this.avenue = avenue;
+        blockRenderer.sharedMaterial = avenue.blockMaterial;
+        textTitle.text = avenue.Title;
+        //textMoney.text = avenue.Money.ToString();
+    }
+
+    public void SetAvenueCurrent() => SetAvenue(avenue);
 
     private void Awake()
     {
