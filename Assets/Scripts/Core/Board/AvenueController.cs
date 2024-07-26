@@ -4,8 +4,6 @@ using System;
 
 public class AvenueController : MonoBehaviour
 {
-    [Header("Options")]
-    [SerializeField] private Material blockMaterial;
     [Header("reference")]
     [SerializeField] private GameObject box;
     [SerializeField] private MeshRenderer blockRenderer;
@@ -17,27 +15,13 @@ public class AvenueController : MonoBehaviour
     public void SetAvenue(Avenue avenue)
     {
         this.avenue = avenue;
-        blockRenderer.sharedMaterial = avenue.blockMaterial;
-        textTitle.text = avenue.Title;
-        //textMoney.text = avenue.Money.ToString();
+        blockRenderer.sharedMaterial = avenue?.blockMaterial;
+        textTitle.text = avenue?.Title;
+        moneyController.SetNumber(avenue?.Money ?? 0);
     }
 
-    public void SetAvenueCurrent() => SetAvenue(avenue);
-
-    private void Awake()
+    private void OnValidate()
     {
-        blockRenderer.sharedMaterial = blockMaterial;
+        SetAvenue(avenue);
     }
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    //void Start()
-    //{
-
-    //}
-
-    // Update is called once per frame
-    //void Update()
-    //{
-
-    //}
 }

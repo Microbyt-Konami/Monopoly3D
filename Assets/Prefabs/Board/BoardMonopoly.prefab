@@ -1662,8 +1662,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b214bc0239178e4481c866455f84505, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blockMaterial: {fileID: 2100000, guid: 956134030c872204ba50ef957bc4974f, type: 2}
+  box: {fileID: 0}
   blockRenderer: {fileID: 8764327154595559154}
+  textTitle: {fileID: 0}
+  moneyController: {fileID: 0}
+  avenue: {fileID: 0}
 --- !u!1 &7089018186638577284
 GameObject:
   m_ObjectHideFlags: 0
@@ -9898,6 +9901,10 @@ PrefabInstance:
     - target: {fileID: 4169006655848568, guid: 8767d9ea8dddf69429fb6c89e304be40, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23183868838966038, guid: 8767d9ea8dddf69429fb6c89e304be40, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

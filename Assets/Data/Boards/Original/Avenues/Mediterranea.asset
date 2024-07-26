@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Mediterranea
   m_EditorClassIdentifier: 
   blockMaterial: {fileID: 2100000, guid: 956134030c872204ba50ef957bc4974f, type: 2}
-  Title: Av. Mediterranea
+  Title: Mediterranea
   Money: 6000
