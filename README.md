@@ -5,6 +5,6 @@ The page the origin game is [Monopoly BIT SOFT](https://github.com/chernandezba/
 
 Assets purchase no include:
 
-- PolygonCity
-- POLYGONCityCharacters
-- Board_games
+- [PolygonCity](https://assetstore.unity.com/packages/3d/environments/urban/polygon-city-low-poly-3d-art-by-synty-95214)
+- [POLYGONCityCharacters](https://assetstore.unity.com/packages/3d/characters/humanoids/humans/polygon-city-characters-low-poly-3d-art-by-synty-106757)
+- [Board_games](https://assetstore.unity.com/packages/3d/props/poly-board-games-275614)
